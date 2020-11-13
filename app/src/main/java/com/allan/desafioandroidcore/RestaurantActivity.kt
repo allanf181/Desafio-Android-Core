@@ -68,14 +68,14 @@ class RestaurantActivity : AppCompatActivity() {
         override fun onBindViewHolder(holder: FoodViewHolder, position: Int) {
             val food = foods[position]
             holder.bindView(food)
-            /*if (position == 0) {
+            if (position == 0) {
                 holder.itemView.setOnClickListener {
-                    val i = Intent(context, RestaurantActivity::class.java)
+                    val i = Intent(context, FoodActivity::class.java)
                     i.putExtra("name", food.nome)
                     i.putExtra("img", food.imageId)
                     context.startActivity(i)
                 }
-            }*/
+            }
         }
 
         override fun getItemCount(): Int {

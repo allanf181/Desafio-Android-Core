@@ -10,4 +10,5 @@
     <string name="register_">Register</string>
     <string name="title_activity_restaurant">Restaurant</string>
     <string name="pratos">Pratos principais</string>
+    <string name="prato_desc">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusant doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis.</string>
 </resources>
