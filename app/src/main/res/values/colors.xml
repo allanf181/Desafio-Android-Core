@@ -6,4 +6,6 @@
     <color name="theme_color">#1E2D3E</color>
     <color name="text">#3F51B5</color>
     <color name="secundary">#8492A6</color>
+    <color name="card_title">#1F2D3D</color>
+
 </resources>

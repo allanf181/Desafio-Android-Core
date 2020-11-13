@@ -89,7 +89,7 @@
     <Button
             android:text="@string/register"
             android:layout_width="0dp"
-            android:layout_height="wrap_content" android:id="@+id/button_login"
+            android:layout_height="wrap_content" android:id="@+id/button_register"
             android:backgroundTint="@color/colorAccent" android:textColor="@android:color/white"
             android:height="60dp"
             app:layout_constraintStart_toStartOf="parent"
