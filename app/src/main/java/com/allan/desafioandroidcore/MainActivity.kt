@@ -1,6 +1,7 @@
 package com.allan.desafioandroidcore
 
 import android.content.Context
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -60,6 +61,14 @@ class MainActivity : AppCompatActivity() {
         override fun onBindViewHolder(holder: RestaurantViewHolder, position: Int) {
             val restaurante = restaurantes[position]
             holder.bindView(restaurante)
+            if(position == 0) {
+                holder.itemView.setOnClickListener {
+                    val i = Intent(context, RestaurantActivity::class.java)
+                    i.putExtra("name", restaurante.nome)
+                    i.putExtra("img", restaurante.imageId)
+                    context.startActivity(i)
+                }
+            }
         }
 
         override fun getItemCount(): Int {

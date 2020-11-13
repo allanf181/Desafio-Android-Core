@@ -8,4 +8,6 @@
     <string name="login">LOG IN</string>
     <string name="register">REGISTER</string>
     <string name="register_">Register</string>
+    <string name="title_activity_restaurant">Restaurant</string>
+    <string name="pratos">Pratos principais</string>
 </resources>

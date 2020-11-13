@@ -8,5 +8,18 @@
         <item name="android:navigationBarColor">@color/theme_color</item>
         <item name="android:textColorPrimary">@color/text</item>
     </style>
-
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="TextAppearance.AppTheme.Title.Collapsed" parent="android:TextAppearance">
+        <item name="android:textColor">#00FFFFFF</item>
+        <item name="android:textSize">0sp</item>
+    </style>
+    <style name="TextAppearance.AppTheme.Title.Expanded" parent="android:TextAppearance">
+        <item name="android:textSize">36sp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
 </resources>
